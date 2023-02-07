@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "myFont";
+  src: url(assets/fonts/static/Inter-Regular.ttf);
+  /* font-weight: 200; */
+}
+
+@font-face {
+  font-family: "myFontBold";
+  src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: "myFontExtraBold";
+  src: url(assets/fonts/static/Inter-ExtraBold.ttf);
+}
+
+* {
+  font-family: "myFont";
+  padding: 0;
+  font-weight: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.js-b {
+  justify-content: space-between;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  font-weight: 900;
+  color: #14181f;
+}
+
+.title.bold {
+  font-size: 60px;
+  width: 315px;
+  font-family: "myFontExtraBold";
+  line-height: 60px;
+}
+
+.img {
+  width: 100%;
+}
+
+.img img {
+  width: 100%;
+}
+
+header {
+  padding: 85px 0 50px;
+}
+
+.links li a {
+  color: rgb(125, 125, 125);
+  padding: 0 20px;
+  transition: 0.4s ease all;
+}
+
+.links li a:hover {
+  color: rgb(255, 196, 0);
+}
+
+.left-side {
+  width: 68%;
+}
+
+.left-side > .row {
+  padding: 40px 0;
+}
+
+.box {
+  width: 365px;
+  margin-left: 50px;
+  color: #6f6f6f;
+  /* padding-bottom: 40px; */
+  line-height: 25px;
+}
+
+.btn {
+  margin: 30px 0;
+}
+
+.btn a {
+  padding: 18px 30px;
+  background: #f65b53;
+  color: #fff;
+  transition: 0.6s;
+  text-transform: uppercase;
+}
+
+.btn a:hover {
+  background: rgb(255, 196, 0);
+}
+.right-side {
+  width: 31%;
+  margin-left: 1%;
+  background: #00001b;
+  padding: 30px 25px 0 25px;
+}
+
+.right-side .row {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-side > .title {
+  color: rgb(255, 196, 0);
+  font-size: 45px;
+}
+
+.card .title a {
+  color: #fff;
+  font-size: 20px;
+  font-family: "myFontBold";
+  padding-bottom: 10px;
+  transition-duration: 0.4s;
+}
+
+.card .text a {
+  color: rgb(151, 150, 150);
+  font-size: 14px;
+  transition-duration: 0.4s;
+  opacity: 0.8;
+}
+
+.card .title a:hover,
+.card .text a:hover {
+  color: rgb(255, 196, 0);
+}
+
+.card {
+  padding: 20px 0;
+  border-bottom: 1px rgb(115, 115, 115) solid;
+}
+
+.news-box{
+  margin-top: 100px;
+}
+
+.news-box .box{
+  width: 28%;
+}
+
+.box .img{
+  width: 25%;
+}
+
+.box .img img{
+  width: 100%;
+  object-fit: cover;
+  height: 100px;
+}
+
+.col{
+  width: 70%;
+}
